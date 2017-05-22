@@ -1,11 +1,23 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 
 
 def main(request):
     '''
-    Show 'Hello bookstore!' in the main page
+    Show 'Hello world!' in the main page
     '''
-    return HttpResponse('Hello bookstore!')
+    html = '''
+    gbhjknjkl;k
+    
+    '''
+    context = {'like':'1361141323'}
+    return render(request, 'main/main.html', context)
 
-# Create your views here.
+
+def about(request):
+    '''
+    Render the about page
+    '''
+    return render(request, 'main/about.html')
+
+
