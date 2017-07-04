@@ -5,6 +5,8 @@ from article.models import Article, Comment
 from article.forms import ArticleForm
 
 
+#test
+
 
 def article(request):
     '''
