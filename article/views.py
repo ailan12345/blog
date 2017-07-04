@@ -5,7 +5,7 @@ from article.models import Article, Comment
 from article.forms import ArticleForm
 
 
-#test
+#test2
 def article(request):
     '''
     Render the article page
