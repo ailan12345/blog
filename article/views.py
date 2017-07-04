@@ -6,8 +6,6 @@ from article.forms import ArticleForm
 
 
 #test
-
-
 def article(request):
     '''
     Render the article page
